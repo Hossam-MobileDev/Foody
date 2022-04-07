@@ -3,49 +3,6 @@ Android FOODY
 
 Modern food recipes application using kotlin coroutines and retrofit2.
 
-Introduction
-------------
-
-Kotlin Coroutines: A coroutine is a concurrency design pattern that you can use on Android to simplify code that executes asynchronously. 
-Retrofit: Retrofit is type-safe REST client for Android and Java which aims to make it easier to consume RESTful web services. ... Retrofit automatically serialises the JSON response using a POJO(Plain Old Java Object) which must be defined in advanced for the JSON Structure.
-
-Android FOODY demonstrates utilizing these components to create a simple food recipe app.
-
-
-In this application user can view recipe, add them in local storage, review them.
-There is also filter search, instructions of recipe and overview of the recipes and food joke fragment.
-It also support dark android dark theme.
-
-
-Getting Started
----------------
-This project uses the Gradle build system. To build this project, use the
-`gradlew build` command or use "Import Project" in Android Studio.
-
-There are two Gradle tasks for testing the project:
-* `connectedAndroidTest` - for running Espresso on a connected device
-* `test` - for running unit tests
-
-For more resources on learning Android development, visit the
-[Developer Guides](https://developer.android.com/guide/) at
-[developer.android.com](https://developer.android.com).
-
-### spoonacular API
-
-
-FOODY uses the [spoonacular API](https://spoonacular.com/food-api) to load recipes, images, instructions,food type and food joke. To use the API, you will need to obtain a free  API key or open an paid account.
-
-Once you have the key, change the constant `API_KEY` in `Constant.kt` file that can be found in
-`~app\src\main\java\com\example\foody\util` path.
-
-```
-const val API_KEY = "[Your API_Key]"
-```
-
-
-
-Screenshots
------------
 
 <table>
   <tr>
